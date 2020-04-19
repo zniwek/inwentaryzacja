@@ -3,7 +3,7 @@ public class ReportPostion {
 	public Asset Asset;
 	public Room PreviusRoom;
 
-	private ReportPropotype reportPropotype;
+	private ReportPrototype reportPrototype;
 	private Room room;
 	private Asset asset;
 

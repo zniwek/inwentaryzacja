@@ -8,7 +8,7 @@ public class Room {
 
 	private Report report;
 	private ReportPostion reportPostion;
-	private ReportPropotype reportPropotype;
+	private ReportPrototype reportPrototype;
 	private Scanning scanning;
 	private ScanningPosition scanningPosition;
 

@@ -14,7 +14,7 @@ public class ReportService {
 	public bool DeleteReport(ref int id) {
 		throw new System.Exception("Not implemented");
 	}
-	public int AddNewReport(ref ReportPropotype newReport) {
+	public int AddNewReport(ref ReportPrototype newReport) {
 		throw new System.Exception("Not implemented");
 	}
 

@@ -1,5 +1,5 @@
 using System;
-public class ReportPropotype {
+public class ReportPrototype {
 	public string Name;
 	public Room Room;
 	public ReportPostion[] Positions;
