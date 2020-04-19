@@ -3,7 +3,7 @@ public class AssetType {
 	public char Letter;
 	public string Name;
 
-	private AssetPropoptype assetPropoptype;
+	private AssetPrototype assetPrototype;
 	private Asset asset;
 
 }
