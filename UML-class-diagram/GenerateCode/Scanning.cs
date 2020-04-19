@@ -19,7 +19,11 @@ public class Scanning {
 	public ScanningReport GetScanningReport() {
 		throw new System.Exception("Not implemented");
 	}
+	public ReportProtoptype GenerateRaport() {
+		throw new System.Exception("Not implemented");
+	}
 
 	private ScanningPosition scanningPosition;
+	private ReportPropotype reportPropotype;
 
 }

@@ -7,5 +7,6 @@ public class ReportPropotype {
 	private Room room;
 
 	private ReportPostion[] reportPostions;
+	private Scanning scanning;
 
 }

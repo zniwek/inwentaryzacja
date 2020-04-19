@@ -1,11 +1,11 @@
 using System;
 public class ReportPostion {
-	public Thing Thing;
+	public Asset Asset;
 	public Room PreviusRoom;
 
 	private ReportPropotype reportPropotype;
 	private Room room;
-	private Thing thing;
+	private Asset asset;
 
 	private Report report;
 

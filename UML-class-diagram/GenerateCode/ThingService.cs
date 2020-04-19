@@ -2,13 +2,13 @@ using System;
 public class ThingService {
 	private ApiController api;
 
-	public Thing GetThing(ref int id) {
+	public Asset GetAsset(ref int id) {
 		throw new System.Exception("Not implemented");
 	}
-	public void AddThing(ref ThingPrototype newThing) {
+	public void AddAsset(ref AssetPrototype newAsset) {
 		throw new System.Exception("Not implemented");
 	}
-	public bool DeleteThing(ref int id) {
+	public bool DeleteAsset(ref int id) {
 		throw new System.Exception("Not implemented");
 	}
 
