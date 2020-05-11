@@ -59,7 +59,7 @@ class ReportRepository implements IRepository
 
             $report_array [] = self::prepareReport($row);
         }
-        return array("count" => $stmt->rowCount(), "reports" => $report_array);
+        return $report_array;
     }
 
     function deleteOne($id)
@@ -130,7 +130,11 @@ class ReportRepository implements IRepository
         $report = new ReportHeader();
         $report->setId($row["id"]);
         $report->setName($row["name"]);
-        $report->setCreateDate($row["create_date"]);
+        try {
+            $report->setCreateDate(new DateTime($row["create_date"]));
+        } catch (Exception $e) {
+            echo 'Exception thrown while setting CreateDate in ReportRepository on line 134: ' . $e->getMessage();
+        }
         $report->setOwnerId($row["owner_id"]);
         $report->setOwnerName($row['owner_name']);
         $report->setRoomName($row['room_name']);
