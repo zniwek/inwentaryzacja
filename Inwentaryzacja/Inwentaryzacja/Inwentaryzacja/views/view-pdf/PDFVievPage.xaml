@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Inwentaryzacja.views.view_pdf.PDFVievPage"
+             BackgroundColor="#8EE3BA">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button>
+
+            </Button>
+            <Button Text="Powrót"
+                    ImageSource="back_icon.png"
+                    ContentLayout="Right, -40"
+                    HorizontalOptions="Start"
+                    FontSize="20"
+                    CornerRadius="12"
+                    BackgroundColor="White"
+                    WidthRequest="150"
+                    HeightRequest="45"
+                    Margin="20,10"
+                    VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

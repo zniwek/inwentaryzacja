@@ -2,6 +2,7 @@
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Inwentaryzacja.views.view_pdf;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,7 +14,7 @@ namespace Inwentaryzacja
         public App()
         {
             InitializeComponent();
-            MainPage = new LoginPage();
+            MainPage = new PDFVievPage();
             
         }
 
